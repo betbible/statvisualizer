@@ -1,0 +1,7 @@
+{
+  "/page": "app/page.js",
+  "/nba/page": "app/nba/page.js",
+  "/api/nba/players/route": "app/api/nba/players/route.js",
+  "/api/nba/player/[id]/opponents/route": "app/api/nba/player/[id]/opponents/route.js",
+  "/api/nba/player/[id]/route": "app/api/nba/player/[id]/route.js"
+}

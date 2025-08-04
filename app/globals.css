@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Utility class overrides */
+@layer utilities {
+  .bg-panel {
+    @apply bg-gray-800;
+  }
+  .border-border {
+    @apply border-gray-700;
+  }
+  .text-accent {
+    @apply text-purple-400;
+  }
+  .bg-highlight {
+    @apply bg-purple-600;
+  }
+  .pill-btn {
+    @apply bg-gray-900 border border-border rounded-full px-4 py-2 text-sm text-white hover:bg-gray-800 transition;
+  }
+}
+
+/* Global body style */
+body {
+  @apply bg-black text-white font-sans;
+}
